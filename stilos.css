@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Modelo de Caja </title>
+<style>
+
+#bg {
+	width: 500px;
+	height: 500px;
+	background-color; blue;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color; gray;
+}
+
+#box {
+	backgroud-color: blue;
+	padding: 10px 30px 10px 30px;
+	border: 20px solid black;
+	width: 300px;
+	margin-top: 50px;
+	overflow: auto;
+}
+
+#content {
+	backgroud-color: #90EE90; //verde
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+p {
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+#p1 {
+	backgroud-color: #A52A2A; //
+	position: relative;
+}
+
+#p2 {
+	backgroud-color: #DEB887; //	
+}
+
+#p3 {
+	backgroud-color: #5F9EA0; //	
+}
+
+#p4 {
+	backgroud-color: #FF7F50; //	
+}
+
+</style>
+</head>
+<body>
+<h1>Modelo de Caja</h1>
+<div id="box">
+	<div id="content"> Este es un ejemplo de caja, con medidas y todo</div>
+</div>
+<h1>posicion de los elementos</h1>
+<div id="container">
+	<p id="p1"></p>
+	<p id="p2"></p>
+	<p id="p3"></p>
+	<p id="p4"></p>
+</div>
+
+</body>
+</html>
